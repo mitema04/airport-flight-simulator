@@ -1,0 +1,15 @@
+{
+  "airports": [
+    {"code":"AAA","name":"Test Airport A","x":-60,"y":-40},
+    {"code":"BBB","name":"Test Airport B","x":60,"y":40},
+    {"code":"CCC","name":"Test Airport C","x":-60,"y":40},
+    {"code":"DDD","name":"Test Airport D","x":60,"y":-40},
+    {"code":"EEE","name":"Test Airport E","x":-20,"y":0},
+    {"code":"FFF","name":"Test Airport F","x":20,"y":0}
+  ],
+  "flights": [
+    {"from":"AAA","to":"BBB","departure":"00:00","duration":120},
+    {"from":"CCC","to":"DDD","departure":"00:00","duration":120},
+    {"from":"EEE","to":"FFF","departure":"00:30","duration":60}
+  ]
+}
